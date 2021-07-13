@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+    <Platforms>AnyCPU;x64</Platforms>
+    <AssemblyName>n64aps</AssemblyName>
+    <AssemblyVersion>1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
+    <Version>0.1.0</Version>
+    <RootNamespace>n64aps</RootNamespace>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <SelfContained>false</SelfContained>
+    <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>n64aps.ico</ApplicationIcon>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <ErrorReport>none</ErrorReport>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ShellProgressBar" Version="5.1.0" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.21308.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ApsCreator": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}
